@@ -1,0 +1,254 @@
+header nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding-top: 1%;
+}
+.menu a {
+  font-size: 18px;
+  color: white;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  height: 8%;
+  border-radius: 4px;
+  letter-spacing: 2px;
+}
+
+.menu a:hover {
+  background-color: #5b8693;
+  color: white;
+}
+
+.logo {
+  width: 11%;
+  height: 11%;
+  margin-left: 1%;
+  margin-top: -0.3%;
+}
+
+header {
+  background-image: url(../images/landingpage3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  opacity: 0.750;
+}
+
+h1 {
+  color: white;
+  font-family: 'Prata', serif;
+  font-size: 60px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  height: 80px;
+  margin-top: 100px;
+  letter-spacing: 2.5px;
+  position: relative;
+  margin-left: 154px;
+}
+
+h2 {
+  color: #5b8693;
+  font-family: 'Prata', serif;
+  font-weight: lighter;
+  /*font-style: italic;*/
+  letter-spacing: 2px;
+  font-size: 45px;
+  margin-left: 500px;
+  margin-top: 50px;
+  position: relative;
+}
+
+h3 {
+  color: white;
+  font-family: 'Prata', serif;
+  font-weight: lighter;
+  /*font-style: italic;*/
+  letter-spacing: 2px;
+  font-size: 45px;
+  margin-left: 500px;
+  margin-top: 50px;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  text-align: left;
+  font-family: 'Muli', sans-serif;
+  background-color: white;
+}
+
+.button {
+    background-color: #5b8693;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: justify;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Prata', serif;
+    border-radius: 4px;
+    margin-left: 295px;
+    border-style: solid 1px;
+    margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #686b6e;
+  color: white;
+}
+
+.intro {
+  font-size: 20px;
+  max-width: 590px;
+  height: 150px;
+  margin-left: 103px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.eyeex {
+  margin-left: 740px;
+  margin-top: 100px;
+}
+
+.eyelashex {
+  position: relative;
+  width: 22%;
+  height: 22%;
+  margin-left: 115px;
+  margin-top: 3%;
+}
+
+.lashintro {
+  font-size: 20px;
+  max-width: 750px;
+  height: 150px;
+  margin-left: 600px;
+  margin-top: -310px;
+  text-align:justify;
+  letter-spacing: 1px;
+  color: #575a5e;
+  line-height: 30px;
+}
+
+.lashbutton {
+  background-color: #5b8693;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: justify;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Prata', serif;
+  border-radius: 4px;
+  margin-left: 915px;
+  border-style: solid 1px;
+  margin-top: 12%;
+  transition: background-color .5s;
+}
+
+.lashbutton:hover {
+  background-color: #686b6e;
+  color: white;
+}
+
+.bodsug {
+  margin-left: 300px;
+  margin-top: 110px;
+}
+
+.bodsugar{
+  position: relative;
+  width: 23%;
+  height: 23%;
+  margin-left: 980px;
+  margin-top: 3%;
+}
+
+.bodsuginfo {
+  font-size: 20px;
+  max-width: 750px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: -310px;
+  text-align:justify;
+  letter-spacing: 1px;
+  color: #575a5e;
+  line-height: 30px;
+}
+
+.bodbutton {
+  background-color: #5b8693;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: justify;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Prata', serif;
+  border-radius: 4px;
+  margin-left: 400px;
+  border-style: solid 1px;
+  margin-top: 10%;
+}
+
+.bodbutton:hover {
+  background-color: #686b6e;
+  color: white;
+}
+
+.logo2 {
+  width: 30%;
+  height: 30%;
+  margin-left: 475px;
+  margin-top: 150px;
+}
+
+.container {
+  height: 800px;
+  margin-top: 100px;
+  background-color: #aaabaf;
+  background: linear-gradient(to right bottom, #648880, #293f50);/*Gradient background on a DIV*/
+
+}
+
+.about {
+  margin-left: 650px;
+  padding-top: 80px;
+}
+
+.traceyabout {
+  width: 23%;
+  height: 23%;
+  margin-left: 115px;
+  margin-top: 60px;
+}
+.traceyinfo {
+  font-size: 17px;
+  max-width: 800px;
+  margin-left: 550px;
+  margin-top: -390px;
+  text-align:justify;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: white;
+}
+
+.beauty {
+  font-size: 42px;
+  font-family: 'Cookie', cursive;
+  color: white;
+  margin-top: 7px;
+  margin-left: 850px;
+  letter-spacing: 2.5px;
+}
